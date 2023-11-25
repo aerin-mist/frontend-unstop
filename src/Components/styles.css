@@ -1,0 +1,113 @@
+.display-sameline{
+    display: flex;
+    flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+
+.border-class{
+
+    border: solid #E5E4E2 0.1px;
+    overflow: auto;
+}
+.border-class-left {
+    border-left: solid #E5E4E2 0.1px;
+    border-radius: 20px;
+}
+
+.border-class-right {
+    border-right: solid #E5E4E2 0.1px;
+    border-radius: 20px;
+}
+hr.vertical {
+    width: 0px;
+    height: 50px;
+    /* or height in PX */
+  }
+
+  hr.verticalSmall{
+    width: 0px;
+    height:'10px';
+  }
+.addassignment-text{
+    color: var(--text-100, #1C4980);
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.heading-stats{
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+}
+
+.heading-bottom {
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+}
+.stats-text{
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 28px */
+}
+.stats.extra{
+    color: #1C4980;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 16.8px */
+}
+.share{
+    border: 0.1px solid black;
+    border-radius: 15px;
+}
+
+.admin{
+    border: 0.1px solid red;
+    border-radius: 15px;
+    background-color: pink;
+    font-size: small;
+}
+.styling-overview-box{
+    border: solid #E5E4E2 0.1px;
+    border-radius: 20px;
+}
+
+.heading-assessments{
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+}
+.other-assessment-text{
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+}
