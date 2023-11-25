@@ -6,4 +6,4 @@
 
 ### UI Library used - Material UI
 
-#### Deploy link: https://main--joyful-eclair-94bd43.netlify.app/Assessment
+#### Deploy link: https://main--joyful-eclair-94bd43.netlify.app
