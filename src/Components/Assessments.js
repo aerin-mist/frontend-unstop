@@ -1,7 +1,7 @@
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+// import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
@@ -18,9 +18,9 @@ import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
-import Chip from '@mui/material/Chip';
+// import Chip from '@mui/material/Chip';
 import Autocomplete from '@mui/material/Autocomplete';
-import Stack from '@mui/material/Stack';
+// import Stack from '@mui/material/Stack';
 
 export default function Assessments() {
 
@@ -63,7 +63,7 @@ export default function Assessments() {
                     <Card sx={{ minWidth: 275 }} >
                         <CardContent>
                             <div className='display-sameline'>
-                                <img src={assignmentIcon} style={{ marginRight: "75%" }} />
+                                <img  alt="img"src={assignmentIcon} style={{ marginRight: "75%" }} />
                                 <IconButton >
                                     <MoreVertIcon />
                                 </IconButton>
@@ -73,7 +73,7 @@ export default function Assessments() {
                             <div className='display-sameline'>
                                 <p style={{ marginRight: '2%' }} className='other-assessment-text'>Job</p>
                                 {/* <hr class="verticalSmall" /> */}
-                                <img src={calenderIcon} />
+                                <img  alt="img"src={calenderIcon} />
                                 <p className='other-assessment-text'>20 Apr 2023</p>
                             </div>
                             <hr style={{ color: '#E5E4E2' }}></hr>
@@ -112,7 +112,7 @@ export default function Assessments() {
                                         <tr>
                                             <td align='left'>
                                             <div className='share'>
-                                                    <img src={shareIcon} />Share
+                                                    <img  alt="img"src={shareIcon} />Share
                                                 </div>
                                             </td>
                                             <td align='right'>
@@ -132,7 +132,7 @@ export default function Assessments() {
                     <Card sx={{ minWidth: 275 }} >
                         <CardContent>
                             <div className='display-sameline'>
-                                <img src={assignmentIcon} style={{ marginRight: "75%" }} />
+                                <img  alt="img"src={assignmentIcon} style={{ marginRight: "75%" }} />
                                 <IconButton >
                                     <MoreVertIcon />
                                 </IconButton>
@@ -140,7 +140,7 @@ export default function Assessments() {
                             <p className='heading-assessments'>Math Assignment</p>
                             <div className='display-sameline'>
                                 <p style={{ marginRight: '2%' }} className='other-assessment-text'>Job</p>
-                                <img src={calenderIcon} />
+                                <img  alt="img"src={calenderIcon} />
                                 <p className='other-assessment-text'>20 Apr 2023</p>
                             </div>
                             <hr style={{ color: '#E5E4E2' }}></hr>
@@ -179,7 +179,7 @@ export default function Assessments() {
                                         <tr>
                                             <td align='left'>
                                                 <div className='share'>
-                                                    <img src={shareIcon} />Share
+                                                    <img alt="img" src={shareIcon} />Share
                                                 </div>
                                             </td>
                                             <td align='right'>

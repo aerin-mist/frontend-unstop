@@ -6,13 +6,13 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
+// import InboxIcon from '@mui/icons-material/MoveToInbox';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import MailIcon from '@mui/icons-material/Mail';
+// import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -20,15 +20,15 @@ import dashboardIcon from '../assets/dashboard.svg';
 import roundStatusIcon from '../assets/admin_meds.svg';
 import assessmentIcon from '../assets/note_alt.svg';
 import libraryIcon from '../assets/quiz.svg'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import TabContent from './TabContent';
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+// import TabContent from './TabContent';
 import { useNavigate } from "react-router-dom";
 
 
 const drawerWidth = 240;
 
 function LeftPanel(props) {
-    const { window } = props;
+    // const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     let navigate = useNavigate();
@@ -40,17 +40,17 @@ function LeftPanel(props) {
     const firstList = [
         {
             text: 'Dashboard',
-            icon: <img src={dashboardIcon} />,
+            icon: <img  alt="img"src={dashboardIcon} />,
             onClick: () => navigate('/Dashboard'),
         },
         {
             text: 'Assessment',
-            icon: <img src={assessmentIcon} />,
+            icon: <img  alt="img" src={assessmentIcon} />,
             onClick: () => navigate('/Assessment'),
         },
         {
             text: 'My Library',
-            icon: <img src={libraryIcon} />,
+            icon: <img  alt="img"src={libraryIcon} />,
             onClick: () => navigate('/My Library'),
         },
     ]
@@ -59,7 +59,7 @@ function LeftPanel(props) {
         {
             text: 'Round Status',
             level:'Admin',
-            icon: <img src={roundStatusIcon} />,
+            icon: <img  alt="img"src={roundStatusIcon} />,
             onClick: () => navigate('/Round Status'),
         }
     ]

@@ -1,5 +1,5 @@
 import LeftPanel from "./LeftPanel"
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TabContent from "./TabContent";
 
 export default function RoutingWithLeftPanel () {

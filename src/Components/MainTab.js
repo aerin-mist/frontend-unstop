@@ -4,7 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import MainTab1 from './Overview';
+// import MainTab1 from './Overview';
 import Overview from './Overview';
 import Assessments from './Assessments';
 

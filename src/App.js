@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import LeftPanel from './Components/LeftPanel';
+// import LeftPanel from './Components/LeftPanel';
 import RoutingWithLeftPanel from './Components/RoutingWithLeftPanel';
 
 function App() {

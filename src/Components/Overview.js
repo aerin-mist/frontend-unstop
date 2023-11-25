@@ -1,4 +1,4 @@
-import Paper from '@mui/material/Paper';
+// import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import totalAssessmentsIcon from '../assets/view_agenda.svg';
 import './styles.css';
@@ -24,7 +24,7 @@ export default function Overview() {
                         <div className='border-class' style={{ height: '100%' }} >
                             <p className='heading-stats'>Total Assessment</p>
                             <div className='display-sameline' style={{ marginLeft: '18%' }}>
-                                <img src={totalAssessmentsIcon} />
+                                <img alt="img" src={totalAssessmentsIcon} />
                                 <h4 className='stats-text'>34</h4>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function Overview() {
                             <div className='display-sameline' style={{ marginLeft: '5%', marginRight: '5%' }}>
                                 <div className='display-sameline'>
 
-                                    <img src={candidatesIcon} />
+                                    <img  alt="img"src={candidatesIcon} />
                                     <div className='display-sameline' style={{ marginLeft: '5%' }}>
                                         <h4 className='stats-text'>11,145 </h4><h6 style={{ color: 'green' }}>+89</h6>
 
@@ -67,7 +67,7 @@ export default function Overview() {
                             <div className='display-sameline' style={{ marginLeft: '5%', marginRight: '5%' }}>
                                 <div className='display-sameline'>
 
-                                    <img src={candidateSourceIcon} />
+                                    <img  alt="img"src={candidateSourceIcon} />
                                     <div className='display-sameline' style={{ marginLeft: '5%' }}>
                                         <h4 className='stats-text'>11,000 </h4><h6 style={{ color: 'green' }}>+89</h6>
 
@@ -106,7 +106,7 @@ export default function Overview() {
                         <div className='border-class' style={{ height: '100%' }}>
                             <p className='heading-stats'>Total Purpose</p>
                             <div className='display-sameline' style={{ marginLeft: '25%' }}>
-                                <img src={totalPurposeIcon} />
+                                <img  alt="img"src={totalPurposeIcon} />
                                 <h4 className='stats-text'>11</h4>
                             </div>
                         </div>
